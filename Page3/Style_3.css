@@ -1,0 +1,72 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: #171616;
+}
+body{
+    margin-left:8%;
+    margin-right:8%;
+    color: #E2E8F0;
+    font-family: 'halvetica';
+    padding-top: 1%;
+}
+header{
+    height: 20%;
+    font-size: larger;
+    color: white;
+    padding:1.5% 9%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border-bottom: 2px solid #EBFF24;
+
+}
+.logo{
+    padding-left:-5%;
+}
+.social img{
+    padding-right:18% ;
+    width: 50%;
+}
+.social{
+    display: flex;
+    flex-direction: row;   
+}
+main{
+    padding:4% 2%;
+}
+
+.subject{
+    white-space: nowrap;
+    font-size:1.2rem ;
+    color: white;
+}
+button{
+    padding:18px;
+    background-color:#E2FF6F;
+    font-weight: 700;
+}
+
+footer{
+    padding:2%;
+   color: white;
+}
+span{
+    color: #E2FF6F;
+    text-decoration: underline;
+}
+ul li{
+    list-style-image: url('./assets/Checkbox.png');
+    list-style-position: inside;
+    font-size: 1rem;
+}
+.list_section{
+    display: flex;
+    justify-content: start;
+    gap:1em 20%;
+}
+
+
+
+ 

@@ -1,0 +1,102 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: #171616;
+}
+body{
+    margin-left:8%;
+    margin-right:8%;
+    color: #E2E8F0;
+    font-family: 'halvetica';
+    padding-top: 1%;
+}
+header{
+    height: 20%;
+    font-size: larger;
+    color: white;
+    padding:1.5% 9%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border-bottom: 2px solid #EBFF24;
+
+}
+.logo{
+    padding-left:-5%;
+}
+.social img{
+    padding-right:18% ;
+    width: 50%;
+}
+.social{
+    display: flex;
+    flex-direction: row;   
+}
+main{
+    padding:4% 2%;
+}
+
+.subject{
+    font-size:1.2rem ;
+    white-space: wrap;
+}
+button{
+    padding:18px;
+    background-color:#E2FF6F;
+    font-weight: 700;
+}
+
+footer{
+    padding:2%;
+    color: white;
+}
+span{
+    color: #E2FF6F;
+    text-decoration: underline;
+}
+.playButton{
+    margin: 1rem 0;
+}
+.footHeading{
+    margin-top:20px;
+    white-space: nowrap;
+    font-size: 0.8rem;
+}
+
+ul li{
+    list-style-image: url('./assets/Checkbox.png');
+    list-style-position: inside;
+    font-size: 1.2rem;
+    background-color: transparent;
+    margin-top: 1em;
+
+}
+.list_section{
+    display: flex;
+    justify-content: start;
+    flex-direction:column;
+    padding:1em;
+    border-radius: 0.6em;
+    margin: 1em 0;
+    background-image: linear-gradient(#425103,black 86%);
+}
+.list,ul, li,b{
+    background-color: transparent;
+}
+.list_section_heading{
+    font-size: 1.4rem;
+    margin-left: 1.2em;
+    background-color: transparent;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    column-gap: 40% ;}
+
+    @media (width <=320px ) {
+        .list{
+            flex-direction: column;
+        }
+      }  

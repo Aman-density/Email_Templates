@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: #171616;
+}
+body{
+    margin: 2% 8%;
+    font-family: 'halvetica';
+    padding-top: 1%;
+    color: #E2E8F0;
+}
+header{
+    height: 20%;
+    font-size: larger;
+    padding:1.5% 9%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border-bottom: 2px solid #EBFF24;
+
+}
+.logo{
+    padding-left:-5%;
+}
+.social img{
+    padding-right:18% ;
+    width: 50%;
+}
+.social{
+    display: flex;
+    flex-direction: row;   
+}
+
+.hero_section{
+    padding:10% 8%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #384860;
+}
+.hero_img{
+    display: block;
+    margin: 0 auto;
+}
+.hero_heading{
+    text-align: center;
+    color: white;    
+}
+.hero_heading h1{
+    margin-bottom: 2%;
+}
+
+.payment_section{
+    padding: 10%;
+}
+.list_1,.list_2{
+    list-style-type: none;
+}
+.payment_list_section{
+    border: 2px solid #425103;
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+    background-image: linear-gradient(#425103,black 86%);
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+ul,li,b{
+    background-color: transparent;
+}
+ul,li{
+    margin-bottom: 0.5rem;
+}
+
+span{
+    color: #E2FF6F;
+}
+.playButton{
+    margin: 1rem 0;
+}
+.coin_section{
+    margin-top:2rem;
+    margin-bottom: 1rem;
+}
+.footer{
+    padding: 0% 10%;
+}
